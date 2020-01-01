@@ -63,4 +63,11 @@ node explore.js
 
 <p>&nbsp;
   
-- You are done :shipit:
+- This will gather your most recent sent messages in Twilio :shipit:
+
+```
+client.messages
+.list()
+    .then(messages => console.log(`The most recent message is ${messages[0].body}`)
+    ).catch(err => console.error(err));
+```
