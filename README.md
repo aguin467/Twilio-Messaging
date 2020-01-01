@@ -1,5 +1,5 @@
 # Twilio-Messaging
-> Messaging your phone number from the Twilio api using Javscript
+> Messaging your phone number from the Twilio api using Javscript <sub>🖥
 
 * <i>This assumes that you know how to use the cli/terminal in GNU/Linux</i>
 * <i>This also assumes that you use vscode as your IDE</i>
@@ -24,7 +24,7 @@ sudo apt install npm -y
 
 <p>&nbsp;
   
-- Create a folder in the cli/terminal
+- Create a folder in the terminal
 
 ```
 mkdir folder name
@@ -38,8 +38,17 @@ cd folder name
 ```
 
 <p>&nbsp;
+
+- Make sure to input your twilio_sid_token and auth_token
+
+```
+const client = new Twilio("TWILIO_ACCOUNT_SID", "AUTH_TOKEN");
+```
+
+<p>&nbsp;
   
-- Open up vscode in the cli/terminal
+
+- Open up vscode in the terminal
 
 ```
 code .
@@ -47,4 +56,11 @@ code .
 
 <p>&nbsp;
   
-- 
+- Then run the command
+```
+node explore.js
+```
+
+<p>&nbsp;
+  
+- You are done :shipit:
