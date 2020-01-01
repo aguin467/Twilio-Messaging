@@ -23,7 +23,15 @@ sudo apt install npm -y
 ```
 
 <p>&nbsp;
-  
+
+- Install Twilio
+
+```
+npm install twilio
+```
+
+<p>&nbsp;
+
 - Create a folder in the terminal
 
 ```
