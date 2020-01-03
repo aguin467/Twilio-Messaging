@@ -1,5 +1,6 @@
 # Twilio-Messaging
-> Messaging your phone number from the Twilio api using Javscript 🖥
+> Messaging your phone number from the Twilio api using Javscript 🖥 
+![Image of used applications](https://github.com/aguin467/Twilio-Messaging-Javscript/blob/master/js.jpg)
 
 * <i>This assumes that you know how to use the cli/terminal in GNU/Linux</i>
 * <i>This also assumes that you use vscode as your IDE</i>
