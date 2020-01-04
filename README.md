@@ -1,5 +1,5 @@
 # Twilio-Messaging
-> Messaging your phone number from the Twilio api using Javscript  ![Code used](https://raw.githubusercontent.com/aguin467/Twilio-Messaging-Javscript/master/js.jpg)
+> Messaging your phone number from the Twilio api using Javscript  ![Code used](https://github.com/aguin467/Twilio-Messaging-Javscript/blob/master/js.png)
 
 
 * <i>This assumes that you know how to use the cli/terminal in GNU/Linux</i>
