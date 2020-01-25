@@ -7,10 +7,14 @@ os:
 dist: bionic
 apt:
   sources:
-  - google-chrome
+    - google-chrome
+  packages:
+    - google-chrome-stable
 branches:
   only:
     - master
+env:
+  
 before_install:
   npm i -S -D twilio
 install:
