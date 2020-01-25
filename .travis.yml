@@ -6,11 +6,6 @@ branches:
 node_js:
   - "12"
   - "node"
-env:
-  - CI=true
-  - TRAVIS=true
-  - LANG=en_US.UTF-8
-  - CONTINUOUS_INTEGRATION=true
 install:
   - npm i
 script:
