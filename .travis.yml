@@ -11,13 +11,8 @@ apt:
 branches:
   only:
     - master
-env: 
-  - Cclang and llvm 7
-  - cmake 3.12.4
-  - gcc 7.4.0
-  - ccache 3.4.1
-  - shellcheck 0.6.0
-  - shfmt 2.6.3
+before_install:
+  npm i -S -D twilio
 install:
   - npm i
 script:
