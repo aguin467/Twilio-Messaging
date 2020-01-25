@@ -5,8 +5,7 @@ node_js:
 sudo: false
 os:
 - linux
-dist:
-- bionic
+dist: bionic
 apt:
   sources:
   - google-chrome
