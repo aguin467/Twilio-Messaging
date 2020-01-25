@@ -12,9 +12,6 @@ env:
   - LANG=en_US.UTF-8
   - CONTINUOUS_INTEGRATION=true
 install:
-  # Required by Electron
-  - export DISPLAY=':99.0'
-  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
   - npm ci
 before_script:
   # Building sources
