@@ -16,9 +16,10 @@ addons:
       # https://github.com/electron/electron/issues/1518#issuecomment-97708181
       - libgconf-2-4
 env:
-  global:
   - CI=true
   - TRAVIS=true
+  - LANG=en_US.UTF-8
+  - CONTINUOUS_INTEGRATION=true
 install:
   # Required by Electron
   - export DISPLAY=':99.0'
