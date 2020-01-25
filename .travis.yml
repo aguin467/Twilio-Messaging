@@ -4,9 +4,6 @@ branches:
   only:
     - master
 node_js:
-  - "6"
-  - "8"
-  - "10"
   - "12"
   - "node"
 addons:
@@ -19,7 +16,7 @@ addons:
       # https://github.com/electron/electron/issues/1518#issuecomment-97708181
       - libgconf-2-4
 env:
-  globals:
+  global:
   - CI=true
   - TRAVIS=true
 install:
