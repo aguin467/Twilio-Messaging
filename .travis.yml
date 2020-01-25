@@ -12,7 +12,7 @@ env:
   - LANG=en_US.UTF-8
   - CONTINUOUS_INTEGRATION=true
 install:
-  - npm ci
+  - npm i
 before_script:
   # Building sources
   - npm run build
