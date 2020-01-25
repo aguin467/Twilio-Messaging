@@ -13,8 +13,5 @@ env:
   - CONTINUOUS_INTEGRATION=true
 install:
   - npm i
-before_script:
-  # Building sources
-  - npm run build
 script:
   - npm run test
